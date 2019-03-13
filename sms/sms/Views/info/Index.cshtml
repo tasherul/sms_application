@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Index";
+
+    var D = ViewBag.Data;
+}
+
+<h2>Index</h2>
+
+@*@{
+    for (int i = 0; i < D.length(); i++)
+    {
+      <h3>Name @D[i]</h3>   
+    }
+    
+}*@
+
+<h3>Name: @D.Name</h3>
+<h3>Age: @D.Age</h3>
+<h3>Details: @D.Details</h3>
